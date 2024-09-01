@@ -17,6 +17,7 @@ def displayTodo():
 
 def addTodo(task):
     tasks.append(task)
+    print("Task added:", task)
 
 def removeTodo(task):
     try:
